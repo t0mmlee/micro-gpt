@@ -26,7 +26,7 @@ from spinner import Spinner
 
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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"),
 DEBUG = os.getenv("DEBUG") in ['true', '1', 't', 'y', 'yes']
 
 from memory import get_memory_instance

@@ -105,8 +105,8 @@ if memory_type == "pinecone":
         def __init__(self):
             super().__init__()
             pinecone.init(
-                api_key=os.getenv("PINECONE_API_KEY"),
-                environment=os.getenv("PINECONE_REGION")
+                api_key=os.getenv("25e89004-9bef-4925-8263-2ccc1214f902"),
+                environment=os.getenv("us-east4-gcp"),
             )
 
             if "microgpt" not in pinecone.list_indexes():
